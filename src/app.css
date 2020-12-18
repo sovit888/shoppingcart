@@ -1,0 +1,38 @@
+.app {
+  width: 100%;
+}
+.card {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-carts {
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  flex-basis: 23%;
+  box-shadow: 0px 0px 10px lightgray;
+}
+.card-carts h1 {
+  padding: 10px 0px;
+}
+.card-carts h3 {
+  padding: 4px 0px;
+  font-weight: 400;
+}
+.card-carts h3 .details {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.card-carts-handler {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-carts-handler p {
+  font-weight: bold;
+}
+.card-carts-handler > .MuiSvgIcon-root {
+  cursor: pointer;
+}
